@@ -75,7 +75,7 @@ class ClientHandler extends Thread {
 
             do {
                 if (isFirstMessage) {
-                    writer.println("Please enter your username:");
+//                    writer.println("Please enter your username:");
                     isFirstMessage = false;
                 } else {
                     writer.println("Enter your message:");
